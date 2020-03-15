@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "c3a4d6a7-8505-4233-8ba1-aebffc295fcb",
+		"name": "tema2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getMelodies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/cc2/cc.php/getMelodies?id=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"cc2",
+						"cc.php",
+						"getMelodies"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insertMelody",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateMelody",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/cc2/cc.php/updateMelody?titlu=dada&artist=dada",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"cc2",
+						"cc.php",
+						"updateMelody"
+					],
+					"query": [
+						{
+							"key": "titlu",
+							"value": "dada"
+						},
+						{
+							"key": "artist",
+							"value": "dada"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteMelody",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
